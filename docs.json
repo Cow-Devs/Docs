@@ -497,7 +497,7 @@
 				"color": 3092790,
 				"type": "rich",
 				"description": "This documentation displays all bot commands and their uses",
-				"title": "Welcome to the **{bot.user.name}** documentation"
+				"title": "Welcome to the **Cow** documentation"
 			}
 		],
 		"label": "Home",
