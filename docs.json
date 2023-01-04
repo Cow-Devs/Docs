@@ -1,0 +1,511 @@
+{
+	"slash": {
+		"embeds": [
+			{
+				"fields": [
+					{
+						"name": "say {message}",
+						"value": "Makes the bot send a message",
+						"inline": false
+					},
+					{
+						"name": "embedsend <embed> (text) {images}",
+						"value": "Makes the bot send an embed",
+						"inline": false
+					},
+					{
+						"name": "steal [emoji]",
+						"value": "Clones an emoji and adds it to the server",
+						"inline": false
+					},
+					{
+						"name": "poll <options>",
+						"value": "Starts a poll (BETA)",
+						"inline": false
+					},
+					{
+						"name": "createtag [name] [response]",
+						"value": "Creates a tag which can be used with [p]tag ([p] is a prefix)",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Administration features",
+				"title": "/admin"
+			},
+			{
+				"fields": [
+					{
+						"name": "ping",
+						"value": "Pong!",
+						"inline": false
+					},
+					{
+						"name": "information",
+						"value": "Shows bot info",
+						"inline": false
+					},
+					{
+						"name": "teaminfo",
+						"value": "Shows info about the bot team",
+						"inline": false
+					},
+					{
+						"name": "age",
+						"value": "Shows how long ago the bot was made",
+						"inline": false
+					},
+					{
+						"name": "suggest [suggestion]",
+						"value": "Sends a suggestion to the support server",
+						"inline": false
+					},
+					{
+						"name": "support",
+						"value": "Sends an invite to the support server",
+						"inline": false
+					},
+					{
+						"name": "documentation",
+						"value": "Shows this paginator",
+						"inline": false
+					},
+					{
+						"name": "setup",
+						"value": "Sends a Cow setup guide",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Bot-related commands",
+				"title": "/bot"
+			},
+			{
+				"fields": [
+					{
+						"name": "seal",
+						"value": "Sends a random seal image",
+						"inline": false
+					},
+					{
+						"name": "meme",
+						"value": "Sends a random meme pulled from r/memes",
+						"inline": false
+					},
+					{
+						"name": "cat (caption)",
+						"value": "Sends a random cat with an optional caption",
+						"inline": false
+					},
+					{
+						"name": "dog",
+						"value": "Sends a random dog image",
+						"inline": false
+					},
+					{
+						"name": "8ball",
+						"value": "Shakes the magic 8ball...",
+						"inline": false
+					},
+					{
+						"name": "eject {options}",
+						"value": "Eject another user",
+						"inline": false
+					},
+					{
+						"name": "slap <users> <text>",
+						"value": "Slaps another user",
+						"inline": false
+					},
+					{
+						"name": "changemymind [text]",
+						"value": "Creates a 'change my mind' meme",
+						"inline": false
+					},
+					{
+						"name": "drip [user]",
+						"value": "Shows a user that got drip",
+						"inline": false
+					},
+					{
+						"name": "widen [image]",
+						"value": "Widen an image",
+						"inline": false
+					},
+					{
+						"name": "roll (sides)",
+						"value": "Rolls a dice",
+						"inline": false
+					},
+					{
+						"name": "count [mode]",
+						"value": "Toggles a count in the channel (BETA)",
+						"inline": false
+					},
+					{
+						"name": "capybara",
+						"value": "Gets a random capybara image",
+						"inline": false
+					},
+					{
+						"name": "coffee",
+						"value": "Sends a random coffee image",
+						"inline": false
+					},
+					{
+						"name": "coinflip",
+						"value": "Flips a coin",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Fun commands :3",
+				"title": "/fun"
+			},
+			{
+				"fields": [
+					{
+						"name": "guildinfo (advanced)",
+						"value": "Shows server info",
+						"inline": false
+					},
+					{
+						"name": "memberinfo (member) (advanced)",
+						"value": "Shows info of a member",
+						"inline": false
+					},
+					{
+						"name": "userinfo (member)",
+						"value": "Shows the info of a user, even if they can't be seen by the bot",
+						"inline": false
+					},
+					{
+						"name": "avatar (display) (user)",
+						"value": "Gets the avatar url of a user",
+						"inline": false
+					},
+					{
+						"name": "emoji (emoji)",
+						"value": "Gets the original image of an emoji",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Commands that anyone can use and don't fall into any other category",
+				"title": "/general"
+			},
+			{
+				"fields": [
+					{
+						"name": "set {channels}",
+						"value": "Sets logging to different channels",
+						"inline": false
+					},
+					{
+						"name": "welcomes (channel) {messages}",
+						"value": "Sets the welcome channel",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Logging setup commands",
+				"title": "/logging"
+			},
+			{
+				"fields": [
+					{
+						"name": "mute [member] [reason]",
+						"value": "Toggles the set muted role on a member for the specified reason",
+						"inline": false
+					},
+					{
+						"name": "setmutedrole [role]",
+						"value": "Sets the muted role that is used with the above command",
+						"inline": false
+					},
+					{
+						"name": "hardmute [member] [reason]",
+						"value": "Toggles the set hardmuted role on a member for the specified reason",
+						"inline": false
+					},
+					{
+						"name": "sethardmutedrole [role]",
+						"value": "Sets the hardmuted role that is used with the above command",
+						"inline": false
+					},
+					{
+						"name": "ban [user] [reason]",
+						"value": "Bans the user from this server",
+						"inline": false
+					},
+					{
+						"name": "kick",
+						"value": "Kicks a member from the server",
+						"inline": false
+					},
+					{
+						"name": "unban [user] [reason]",
+						"value": "Unbans a user from the server",
+						"inline": false
+					},
+					{
+						"name": "tempmute [member] [reason] {duration}",
+						"value": "Times out a member",
+						"inline": false
+					},
+					{
+						"name": "untempmute [member] [reason]",
+						"value": "Removes the timeout from a member",
+						"inline": false
+					},
+					{
+						"name": "dm [user] [message] (secret)",
+						"value": "Sends a direct message to a member via the bot",
+						"inline": false
+					},
+					{
+						"name": "togglenote [member] [note]",
+						"value": "Sets the mod note of a member",
+						"inline": false
+					},
+					{
+						"name": "shownote [member]",
+						"value": "Shows the moderation note of a member",
+						"inline": false
+					},
+					{
+						"name": "warn [member] [message]",
+						"value": "Warns a member",
+						"inline": false
+					},
+					{
+						"name": "showwarn [member] (number)",
+						"value": "Shows a warning of a member by number",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Moderation commands",
+				"title": "/mod"
+			},
+			{
+				"fields": [
+					{
+						"name": "setchannel [channel]",
+						"value": "Channel to have modmail messages set to",
+						"inline": false
+					},
+					{
+						"name": "send [message]",
+						"value": "Sends a message to the modmail channel",
+						"inline": false
+					},
+					{
+						"name": "reply [token_id] [message]",
+						"value": "Reply to a modmail message using the ID of the modmail",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Modmail commands",
+				"title": "/modmail"
+			},
+			{
+				"fields": [
+					{
+						"name": "purge [count]",
+						"value": "Purges messages",
+						"inline": false
+					},
+					{
+						"name": "setsuggestions [channel]",
+						"value": "Sets the channel so that all messages will have reactions added and a thread created",
+						"inline": false
+					},
+					{
+						"name": "nuke",
+						"value": "Deletes all channel in the server",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Server owner commands",
+				"title": "/owner"
+			},
+			{
+				"fields": [
+					{
+						"name": "leaderboard",
+						"value": "Shows a server XP leaderboard",
+						"inline": false
+					},
+					{
+						"name": "rewards",
+						"value": "Shows all the server level rewards",
+						"inline": false
+					},
+					{
+						"name": "rolereward (level) (role)",
+						"value": "Toggles a role reward for a level",
+						"inline": false
+					},
+					{
+						"name": "rank (user)",
+						"value": "Displays the XP of a member",
+						"inline": false
+					},
+					{
+						"name": "setcard {options}",
+						"value": "Customize the XP card you get for using the above command",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "XP and leveler commands",
+				"title": "/xp"
+			},
+			{
+				"fields": [],
+				"color": 3092790,
+				"type": "rich",
+				"title": "Coming when I feel like it: Money"
+			}
+		],
+		"label": "Slash commands",
+		"description": "Average slash commands",
+		"show_indicator": true,
+		"show_disabled": true,
+		"loop_pages": true,
+		"default": null,
+		"disable_on_timeout": true
+	},
+	"bridge": {
+		"embeds": [
+			{
+				"fields": [],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Use a tag",
+				"title": "tag"
+			}
+		],
+		"label": "Bridge commands",
+		"description": "Slash commands with a prefix option",
+		"show_indicator": false,
+		"show_disabled": false,
+		"loop_pages": false,
+		"default": null,
+		"disable_on_timeout": true
+	},
+	"user": {
+		"embeds": [
+			{
+				"fields": [
+					{
+						"name": "Ban",
+						"value": "Bans the member from the server",
+						"inline": false
+					},
+					{
+						"name": "Kick",
+						"value": "Kicks the member from the server",
+						"inline": false
+					},
+					{
+						"name": "Member Info",
+						"value": "Equivalent to </general memberinfo:1037934736028479489> with `advanced` set to False",
+						"inline": false
+					},
+					{
+						"name": "Toggle Mute",
+						"value": "Equivalent to </mod mute:1041517408386560110>",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Commands used by clicking on a user",
+				"title": "User commands"
+			}
+		],
+		"label": "User commands",
+		"description": "Commands used by clicking on a user",
+		"show_indicator": false,
+		"show_disabled": false,
+		"loop_pages": false,
+		"default": null,
+		"disable_on_timeout": true
+	},
+	"message": {
+		"embeds": [
+			{
+				"fields": [
+					{
+						"name": "Delete",
+						"value": "Deletes the message",
+						"inline": false
+					},
+					{
+						"name": "Pin",
+						"value": "Pins the message",
+						"inline": false
+					},
+					{
+						"name": "Sticker",
+						"value": "Gets the message sticker's info",
+						"inline": false
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "Commands used by selecting a message",
+				"title": "Message commands"
+			}
+		],
+		"label": "Message commands",
+		"description": "Commands used by clicking on a message",
+		"show_indicator": false,
+		"show_disabled": false,
+		"loop_pages": false,
+		"default": null,
+		"disable_on_timeout": true
+	},
+	"home": {
+		"embeds": [
+			{
+				"fields": [
+					{
+						"name": "Slash command format",
+						"value": "**[text]**\nRequired fields\n**(text)**\nOptional fields\n**<text>**\nSeveral required fields with the same purpose\n**{text}**\nSeveral optional fields with the same purpose",
+						"inline": true
+					},
+					{
+						"name": "Prefixes",
+						"value": "! ? ; . ,",
+						"inline": true
+					}
+				],
+				"color": 3092790,
+				"type": "rich",
+				"description": "This documentation displays all bot commands and their uses",
+				"title": "Welcome to the **Cow** documentation"
+			}
+		],
+		"label": "Home",
+		"description": "Home page of the documentation",
+		"show_indicator": false,
+		"show_disabled": false,
+		"loop_pages": false,
+		"default": true,
+		"disable_on_timeout": true
+	}
+}
